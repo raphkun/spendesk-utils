@@ -1,0 +1,20 @@
+{
+  "name": "spendesk-utils",
+  "version": "1.0.0",
+  "description": "extract VAT number from a PDF file",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests"
+  },
+  "author": "raphkun@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "jsvat": "^1.1.5",
+    "pdfreader": "^0.1.4",
+    "q": "^1.4.1"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-as-promised": "^6.0.0"
+  }
+}
