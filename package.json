@@ -9,6 +9,7 @@
   "author": "raphkun@gmail.com",
   "license": "ISC",
   "dependencies": {
+    "express": "^4.15.2",
     "jsvat": "^1.1.5",
     "pdfreader": "^0.1.4",
     "q": "^1.4.1"
