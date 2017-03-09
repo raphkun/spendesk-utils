@@ -14,7 +14,7 @@ Usage
 
 ### Simple command line client ###
 ```javascript
-node index.js './parsable_file.pdf'
+node index.js './parsable_file.pdf' <COMMA_SEPARATED_EXCLUDED_VAT_NUMBERS>
 ```
 
 ### Running the tests ###
