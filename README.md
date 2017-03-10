@@ -14,8 +14,14 @@ Usage
 
 ### Simple command line client ###
 ```javascript
-node index.js './parsable_file.pdf' <COMMA_SEPARATED_EXCLUDED_VAT_NUMBERS>
+node index.js PARSABLE_PDF_FILE <COMMA_SEPARATED_EXCLUDED_VAT_NUMBERS>
 ```
+### Launching Web app ###
+```javascript
+node server.js
+```
+
+Then open [http://localhost:3000](http://localhost:3000)
 
 ### Running the tests ###
 
