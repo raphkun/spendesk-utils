@@ -1,9 +1,320 @@
-#container {
-    padding: 50px;
-    background-color: #EEE;
+.alegreya {
+    font-family: Alegreya,sans-serif;
+    font-style: italic
 }
-#container h1 {
-    font-size: 48px;
-    font-family: sans-serif;
-    color: #0080a8;
+
+.ff-el {
+    font-weight: 200
+}
+
+.ff-el,.ff-l {
+    font-family: Work Sans,Helvetica,sans-serif
+}
+
+.ff-l {
+    font-weight: 300
+}
+
+.ff,body,html {
+    font-family: Work Sans,Helvetica,sans-serif;
+    font-weight: 400
+}
+
+.ff-m,#uploader.form .input-container>label {
+    font-family: Work Sans,Helvetica,sans-serif;
+    font-weight: 500
+}
+
+.btn,.ff-sb {
+    font-weight: 600
+}
+
+.btn,.ff-b,.ff-sb {
+    font-family: Work Sans,Helvetica,sans-serif
+}
+
+.ff-b {
+    font-weight: 700
+}
+
+.btn {
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: border .2s ease,color .2s ease,background-color .2s ease
+}
+
+.btn-primary {
+    background-color: #6e00ff
+}
+
+.btn-primary:active,.btn-primary:focus,.btn-primary:hover {
+    background-color: #5800cc;
+    cursor: pointer
+}
+
+.btn-secondary {
+    background-color: #83ea8d
+}
+
+.btn-secondary:active,.btn-secondary:focus,.btn-secondary:hover {
+    background-color: #57e365;
+    cursor: pointer
+}
+
+.btn-primary-transparent {
+    border: 1px solid #6e00ff;
+    background-color: #fff;
+    color: #575756;
+    font-size: 16px;
+    padding: 15px;
+    min-width: 100px
+}
+
+.btn-primary-filled,.btn-primary-transparent:active,.btn-primary-transparent:focus,.btn-primary-transparent:hover {
+    background-color: #6e00ff;
+    color: #fff
+}
+
+.btn-primary-filled {
+    border: 1px solid #6e00ff;
+    font-size: 16px;
+    padding: 15px;
+    min-width: 100px
+}
+
+.btn-primary-filled:active,.btn-primary-filled:focus,.btn-primary-filled:hover {
+    background-color: #5800cc;
+    border-color: #5800cc
+}
+
+.btn-transparent-unused {
+    border: 1px solid #e3e3e3;
+    color: #575756;
+    background: transparent
+}
+
+.btn:disabled {
+    opacity: .4
+}
+
+#uploader.form .input-container {
+    height: 50px
+}
+
+#uploader.form .input-container>* {
+    display: block;
+    width: 100%
+}
+
+#uploader.form .input-container>label {
+    font-size: 12px;
+    color: #575756
+}
+
+#uploader.form .input-container input {
+    font-weight: 300;
+    border: 0;
+    border-bottom: 1px solid #e3e3e3;
+    font-size: 16px;
+    padding: 7px 0 8px;
+    transition: color .2s ease,outline-width .2s ease,border-color .2s ease;
+    outline: none
+}
+
+#uploader.form .input-container input::-webkit-input-placeholder {
+    font-weight: 300;
+    color: #cacaca;
+    transition: color .2s ease
+}
+
+#uploader.form .input-container input:-webkit-autofill,#uploader.form .input-container input:-webkit-autofill:active,#uploader.form .input-container input:-webkit-autofill:focus,#uploader.form .input-container input:-webkit-autofill:hover {
+    -webkit-box-shadow: 0 0 0 1000px #fff inset!important;
+    -webkit-appearance: button;
+    border-radius: 0
+}
+
+#uploader.form .input-container .form-append {
+    position: relative;
+    display: inline-block;
+    width: auto;
+    z-index: 1;
+    margin-top: -28px;
+    float: right;
+    text-decoration: none
+}
+
+#uploader.form .input-container input:valid {
+    border-color: #83ea8d
+}
+
+#uploader.form .input-container.error input,#uploader.form .input-container.error input+label,#uploader.form .input-container.error label {
+    color: #f3ad9b!important;
+    border-color: #f3ad9b
+}
+
+#uploader.form .input-container.error input+label::-webkit-input-placeholder,#uploader.form .input-container.error input::-webkit-input-placeholder,#uploader.form .input-container.error label::-webkit-input-placeholder {
+    color: #f3ad9b
+}
+
+#uploader.form .form-warning {
+    font-size: 11px;
+    color: #f3ad9b;
+    text-transform: uppercase;
+    margin: 0 0 20px;
+    display: block
+}
+
+a {
+    transition: color .2s ease
+}
+
+.color-primary {
+    color: #6e00ff
+}
+
+.color-black {
+    color: #1e1e33
+}
+
+a.color-primary {
+    text-decoration: none
+}
+
+a.color-primary:active,a.color-primary:focus,a.color-primary:hover {
+    color: #5800cc
+}
+
+a.color-black {
+    text-decoration: none
+}
+
+a.color-black:active,a.color-black:focus,a.color-black:hover {
+    color: #6e00ff
+}
+
+a.color-grey-dark {
+    color: #575756;
+    text-decoration: none
+}
+
+a.color-grey-dark:active,a.color-grey-dark:focus,a.color-grey-dark:hover {
+    color: #1e1e33
+}
+
+a.color-grey {
+    color: #9d9d9c;
+    text-decoration: none
+}
+
+a.color-grey:active,a.color-grey:focus,a.color-grey:hover {
+    color: #575756
+}
+
+body,html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    color: #1e1e33;
+    background: url('https://www.spendesk.com/static/img/bg-spendesk.png') no-repeat 50% 50%;
+}
+
+#container {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 100%;
+    -ms-flex-direction: column;
+    flex-direction: column
+}
+
+#container .login__header {
+    padding: 20px 0;
+    text-align: center
+}
+
+#container #uploader {
+    background-color: #fff;
+    border-radius: 4px;
+    max-width: 94%;
+    width: 410px;
+    margin: 0 auto;
+    -ms-flex-pack: center;
+    justify-content: center;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    box-shadow: 2px 5px 20px rgba(0,0,0,.05);
+    padding: 0
+}
+
+#container #uploader .form-rows {
+    width: 80%;
+    margin: 20px 0
+}
+
+#container #uploader .form-row {
+    margin: 20px 0
+}
+
+#container #uploader button {
+    height: 55px;
+    font-size: 16px
+}
+
+#container strong {
+    color: #6e00ff
+}
+
+#drop_zone {
+    border: 2px dashed #bbb;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    padding: 25px;
+    text-align: center;
+    font-size: 20pt;
+    color: #bbb;
+}
+
+#drop_zone.hover {
+    border-color: #83ea8d;
+}
+
+#results {
+    margin:5px;
+    border: 1px solid #F0F0F0;
+}
+
+#results .header {
+    font-weight: lighter;
+    font-size: 15px;
+    padding: 10px;
+    color: #7B7B7B;
+    text-transform: uppercase;
+    background-color: #F0F0F0;
+    width: 380px;
+    margin: 0;
+}
+#results .list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 380px;
+}
+
+#results .list li {
+    color: #9D9D9C;
+    background-color: #FFF;
+    padding: 5px;
+    border-bottom: 1px solid #F0F0F0;
 }
